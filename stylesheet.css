@@ -117,11 +117,8 @@ max-width: 36em;
 	font-size: 17pt;
 }
 
-@media (max-width: 2000px) {
- .headline {
-font-size: 1em
- }
-	body {
-		background-color: green;
-	}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
 }
