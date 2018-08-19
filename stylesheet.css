@@ -117,7 +117,7 @@ max-width: 36em;
 	font-size: 17pt;
 }
 
-@media (max-width: 4.2em) {
+@media (max-width: 2000px) {
  .headline {
 font-size: 1em
  }
