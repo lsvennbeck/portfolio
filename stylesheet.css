@@ -67,9 +67,6 @@ font-size: 4.2em;
 
 
 #wrapper {
-	display: -webkit-flex;
-	display: flex;
-
 	padding: 1em;
 	margin-left: auto;
 	margin-right: auto; 
@@ -98,15 +95,12 @@ font-size: 4.2em;
 }
 
 .wideContent {
-	
 	max-width: 42em;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .narrowContent {
-	display: -webkit-flex;
-	display: flex;
 	max-width: 32em;
 	margin-left: auto;
 	margin-right: auto;
