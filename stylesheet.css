@@ -117,7 +117,7 @@ max-width: 36em;
 	font-size: 17pt;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 2000px) {
     body {
         background-color: lightblue;
     }
