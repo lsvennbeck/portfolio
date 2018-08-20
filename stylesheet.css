@@ -118,7 +118,7 @@ max-width: 36em;
 	font-size: 17pt;
 }
 
-@media only screen and (max-width: 10em) {
+@media only screen and (max-width: 481px) {
     .headline {
         color: blue;
 	    font-size: 3.5em;
