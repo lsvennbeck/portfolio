@@ -38,7 +38,7 @@ ul {
 
 li {
 	list-style: none;
-	display: inline;
+	float: left;
 	margin-right: 1.5em;
 }
 
@@ -119,7 +119,12 @@ max-width: 36em;
 
 @media only screen and (max-width: 481px) {
     .headline {
-        
-	    font-size: 3em;
+	    font-size: 3.1em;
+    }
+
+    li {
+    	margin-right: 1em;
+    	font-size: 16pt;
     }
 }
+
