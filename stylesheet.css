@@ -125,6 +125,7 @@ max-width: 36em;
     li {
     	margin-right: 0.8em;
     	font-size: 15pt;
+    	color: green;
     }
 }
 
