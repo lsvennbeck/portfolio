@@ -130,12 +130,3 @@ li {
         font-size: 15pt;
     }
 }
-
-@font-face {
-    font-family: ‘souvenir-medium’;
-       src: url('https://raw.githubusercontent.com/lsvennbeck/portfolio/gh-pages/imgs/souvenir-medium.woff');
-  }
-
-h1, h2, h3, h4, h5, h6 { font-family: "souvenir-medium"  !important; }
-h1, h2, h3, h4, h5, h6 { color: "#006A4E"  !important; }
-
