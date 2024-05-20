@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+    <link rel = "stylesheet" type = "text/css"  href = "../stylesheet.css" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <title>Solar charger</title>
+</head>
+<body>
+    <div id = "container">
+        <div id = "main">
+            <div class = "narrowContent">
+                <div id = "menu">
+                    <ul>
+                        <li> <a href="../index.html"> About </a> </li>
+                        <li class = "selected"> <a href="../projects.html"> Projects </a> </li>
+                        <li> <a href="../resume.html"> Resume </a> </li>
+                        <li> <a href="../contact.html"> Contact </a> </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class = "narrowContent">
+                <br>
+                <h1 class = "headline"> Solar charger </h1>
+                <p>
+                <strong>Role:</strong> System design/Electronics
+                <br/>
+                <strong>Team:</strong> Lars Svennbeck
+                
+            </div>
+
+            <div class = "wideContent">
+                <br>
+                <img src = "../imgs/solarCharger/overview.png"> </img>
+                <br>
+                <br>
+            </div>
+
+            <div class = "narrowContent">
+                <p>
+                I'm looking to use product design and business to reduce fossil fuel emissions and increase energy supply resilience. 
+                <br/>
+                <br/>
+                My goal is to make more people choose electric cars and my hypothesis is that offering off-grid solar EV chargers can help make it more attractive by reducing charging cost and increasing resilience.
+                <br/>
+                <br/>
+                I've built two EV solar charger prototypes to better understand the opportunities and limitations of solar charging. The main difference between the them is that one uses a battery and the other doesn't.
+                <br/>
+                <br/>
+                The reason for avoiding a battery is that they are expensive and eventually wear down. The first prototype charges the car directly from solar panels.
+                </p>
+            </div>
+            
+            <div class = "wideContent">
+                <br/>
+                <img src = "../imgs/solarCharger/prototype1.jpg"> </img>
+                <br/>
+                <br/>
+            </div>
+            
+            <div class = "narrowContent">
+                <p>
+                The charging speed adjusts according to available solar coverage.
+                <br/>
+                <br/>
+                </p>
+            </div>
+            
+            <div class = "wideContent">
+                <br/>
+                <img src = "../imgs/solarCharger/curve.png"> </img>
+                <br/>
+            </div>
+            
+            <div class = "narrowContent">
+                <p>
+                When building the prototype I learned that there's a minimum wattage car-side to start charging, all electricity available below that is wasted. This means the prototype would require a significant amount of panels to stay above the minimum.
+                <br/>
+                <br/>
+                The second prototype uses a battery on a charge/discharge loop.  This allows for any amount of solar panels to charge the car.
+                </p>
+            </div>
+
+            <div class = "wideContent">
+                <img src = "../imgs/solarCharger/prototype2.jpg"> </img>
+                <br/>
+                <br/>
+            </div>
+
+            <div class = "wideContent">
+                <img src = "../imgs/solarCharger/chargingAnimation.gif"> </img>
+                <br/>
+                <br/>
+            </div>
+
+            <div class = "narrowContent">
+                <p>
+                The solar panels always charges the battery, the battery charges the car until it’s empty, then it pauses until it’s full again.
+                <br/>
+                <br/>
+                <b>Project conclusions:</b>
+                <br/>
+                Due to higher overall system cost and larger space requirements I believe a battery-free charger would make the most sense for commercial parking lots, businesses offering charging for employees and perhaps farmers, and not as much for individuals.
+                <br/>
+                <br/>
+                I believe a battery powered charger with a high cycle life battery chemistry like LFP could be a useful and desirable product for individuals.
+                <br/>
+                <br/>
+                <b>Next steps:</b>
+                <br/>
+                I've found out that Enteligent is developing a battery-free charger so I don't see a market opportunity there.
+                <br/>
+                <br/>
+                There are many solar battery generators on the market. They only differ from my charger with a battery when it comes to the looping EV charging behavior. This could be fixed with a small software update, so I don't see a market opportunity there.  I've contacted the manufacturers about implementing an EV charge mode but no one has done it yet.
+                <br/>
+                <br/>
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+    <a href = "../projects/kalories.html">
+        <div id = "footer">
+            <div class = "narrowContent">
+                <br>
+                <p>Next:</p>
+                <h2>Kalories</h2>
+            </div>
+        </div>
+    </a>
+</body>
