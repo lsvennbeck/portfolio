@@ -34,6 +34,7 @@ html, body {
     padding: 1em;
 }
 
+
 #footer h2 {
     margin-top: -0.49em;
 }
@@ -46,6 +47,10 @@ h1, h2, h3 {
     margin: 0;
     padding: 0;
     line-height: 1em;
+}
+
+b {
+    line-height: 1.3em;
 }
 
 p {
@@ -73,6 +78,10 @@ li {
     list-style: none;
     float: left;
     margin-right: 1.5em;
+}
+
+.nestedParagraph {
+    line-height: 1.3em;
 }
 
 .HStack {
@@ -106,8 +115,9 @@ li {
 }
 
 .date {
-    color: #939393;
+    color: #8A8A8A;
     font-size: 17pt;
+    line-height: 1.4em;
 }
 
 #menu {
