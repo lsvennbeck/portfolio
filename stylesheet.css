@@ -30,6 +30,10 @@ html, body {
     padding: 1em;
 }
 
+#invisibleFooter {
+    padding: 1em;
+}
+
 #footer h2 {
     margin-top: -0.49em;
 }
