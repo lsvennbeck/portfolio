@@ -1,5 +1,4 @@
 * {
-/*    margin: 0;*/
     padding: 0;
 }
 
@@ -46,6 +45,11 @@ h1, h2, h3 {
     margin: 0;
     padding: 0;
     line-height: 1em;
+}
+
+h3 {
+    font-size: 18pt;
+    margin-bottom: -0.95em;
 }
 
 b {
@@ -110,7 +114,7 @@ li {
 }
 
 .headline {
-    font-size: 4.2em;
+    font-size: 3.4em;
 }
 
 .date {
@@ -151,7 +155,7 @@ li {
 
 @media only screen and (max-width: 481px) {
     .headline {
-        font-size: 3.1em;
+        font-size: 3em;
     }
     
     li {
